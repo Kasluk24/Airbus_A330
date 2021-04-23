@@ -167,10 +167,10 @@
 	<model>
 		<path>Aircraft/Airbus_A330/Models/Instruments/Pedestal_up/Pedestal_up.xml</path>
 		<offsets>
-			<x-m>0.022</x-m>
+			<x-m>0.0</x-m>
 			<y-m>0.0</y-m>
-			<z-m>-0.00515</z-m>
-			<pitch-deg>9.4</pitch-deg>
+			<z-m>0.0</z-m>
+			<pitch-deg>0.0</pitch-deg>
 		</offsets>
 	</model>
 
@@ -5150,7 +5150,8 @@
 
 	<animation>
 		<type>rotate</type>
-		<object-name>trim_1</object-name>
+		<object-name>trimwheel_left</object-name>
+		<object-name>trimwheel_right</object-name>
 		<property>controls/flight/elevator-trim</property>
 		<factor>1000</factor>
 		<axis>
@@ -5992,7 +5993,7 @@
 		<object-name>ped_footrest</object-name>
 		<object-name>pedestal_low</object-name>
 		<object-name>thr_quad</object-name>
-		<object-name>trim_1</object-name>
+		<!-- <object-name>trim_1</object-name> -->
 		<object-name>trim_2</object-name>
 		<object-name>fcu_panel</object-name>
 		<object-name>seat1</object-name>
@@ -6044,6 +6045,8 @@
 		<object-name>hud</object-name>
 		<object-name>hud_box</object-name>
 		<object-name>hud_ceiling</object-name>
+		<object-name>trimwheel_right</object-name>
+		<object-name>trimwheel_left</object-name>
 		<emission>
 			<red>0.3</red>
 			<green>0.3</green>
@@ -6388,7 +6391,7 @@
 		<object-name>tray2-cpt</object-name>
 		<object-name>tray2-fo</object-name>
 		<object-name>trim_wheel</object-name>
-		<object-name>trim_1</object-name>
+		<!-- <object-name>trim_1</object-name> -->
 		<object-name>trim_2</object-name>
 		<object-name>trim_2_lts</object-name>
 		<object-name>trray_slide</object-name>
@@ -6405,6 +6408,9 @@
 		<object-name>HeadsetFo</object-name>
 		<object-name>WindowOpenerFo</object-name>
 		<object-name>WX</object-name>
+		
+		<object-name>trimwheel_right</object-name>
+		<object-name>trimwheel_left</object-name>
 	</effect>
    
 	<animation>
