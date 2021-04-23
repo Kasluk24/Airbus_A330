@@ -5114,7 +5114,7 @@
 	<!-- Pitch Trim -->
 	<animation>
 		<type>pick</type>
-		<object-name>trim_wheel</object-name>
+		<object-name>trim_1</object-name>
 		<action>
 			<button>0</button>
 			<button>3</button>
@@ -5150,8 +5150,7 @@
 
 	<animation>
 		<type>rotate</type>
-		<object-name>trimwheel_left</object-name>
-		<object-name>trimwheel_right</object-name>
+		<object-name>trim_1</object-name>
 		<property>controls/flight/elevator-trim</property>
 		<factor>1000</factor>
 		<axis>
@@ -5993,8 +5992,12 @@
 		<object-name>ped_footrest</object-name>
 		<object-name>pedestal_low</object-name>
 		<object-name>thr_quad</object-name>
-		<!-- <object-name>trim_1</object-name> -->
+		<object-name>trim_1</object-name>
 		<object-name>trim_2</object-name>
+		<object-name>trim_3</object-name>
+		<object-name>throttle_2</object-name>
+		<object-name>throttle_2.1</object-name>
+		<object-name>throttle_2.2</object-name>
 		<object-name>fcu_panel</object-name>
 		<object-name>seat1</object-name>
 		<object-name>seat4</object-name>
@@ -6045,8 +6048,6 @@
 		<object-name>hud</object-name>
 		<object-name>hud_box</object-name>
 		<object-name>hud_ceiling</object-name>
-		<object-name>trimwheel_right</object-name>
-		<object-name>trimwheel_left</object-name>
 		<emission>
 			<red>0.3</red>
 			<green>0.3</green>
@@ -6390,9 +6391,12 @@
 		<object-name>tray1-fo</object-name>
 		<object-name>tray2-cpt</object-name>
 		<object-name>tray2-fo</object-name>
-		<object-name>trim_wheel</object-name>
-		<!-- <object-name>trim_1</object-name> -->
+		<object-name>trim_1</object-name>
 		<object-name>trim_2</object-name>
+		<object-name>trim_3</object-name>
+		<object-name>throttle_2</object-name>
+		<object-name>throttle_2.1</object-name>
+		<object-name>throttle_2.2</object-name>
 		<object-name>trim_2_lts</object-name>
 		<object-name>trray_slide</object-name>
 		<object-name>visor_cpt</object-name>
@@ -6408,9 +6412,6 @@
 		<object-name>HeadsetFo</object-name>
 		<object-name>WindowOpenerFo</object-name>
 		<object-name>WX</object-name>
-		
-		<object-name>trimwheel_right</object-name>
-		<object-name>trimwheel_left</object-name>
 	</effect>
    
 	<animation>
