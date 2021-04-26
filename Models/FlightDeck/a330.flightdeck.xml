@@ -5621,6 +5621,7 @@
 			<object-name>trim.axis</object-name>
 		</axis>
 	</animation>
+	<!-- A330 doesn't need that, right?
 	<animation>
 		<name>Engine 1 throttle lever rev</name>
 		<type>rotate</type>
@@ -5644,6 +5645,7 @@
 			<object-name>trim.axis</object-name>
 		</axis>
 	</animation>
+	-->
 	<animation>
 		<name>Engine 2 throttle lever pick</name>
 		<type>pick</type>
@@ -5696,6 +5698,7 @@
 			<object-name>trim.axis</object-name>
 		</axis>
 	</animation>
+	<!-- A330 doesn't need that, right?
 	<animation>
 		<name>Engine 2 throttle lever rev</name>
 		<type>rotate</type>
@@ -5719,41 +5722,27 @@
 			<object-name>trim.axis</object-name>
 		</axis>
 	</animation>
+	-->
 
 	<animation>
 		<name>Reverse Thrust left lever</name>
 		<type>rotate</type>
 		<object-name>rev_l</object-name>
 		<property>controls/engines/engine[0]/reverser</property>
-		<factor>60</factor>
+		<factor>40</factor>
 		<axis>
-			<x>0</x>
-			<y>1</y>
-			<z>0</z>
+			<object-name>rev_l.axis</object-name>
 		</axis>
-		<center>
-			<x-m>-0.10437</x-m>
-			<y-m>0</y-m>
-			<z-m>0.02132</z-m>
-		</center>
 	</animation>
-
 	<animation>
 		<name>Reverse Thrust right lever</name>
 		<type>rotate</type>
 		<object-name>rev_r</object-name>
 		<property>controls/engines/engine[1]/reverser</property>
-		<factor>60</factor>
+		<factor>40</factor>
 		<axis>
-			<x>0</x>
-			<y>1</y>
-			<z>0</z>
+			<object-name>rev_r.axis</object-name>
 		</axis>
-		<center>
-			<x-m>-0.10437</x-m>
-			<y-m>0</y-m>
-			<z-m>0.02132</z-m>
-		</center>
 	</animation>
 
 	<!-- Tray Tables -->
@@ -6380,7 +6369,7 @@
 		<object-name>thr_quad_lts</object-name>
 		<object-name>thr_r</object-name>
 		<object-name>rev_r</object-name>
-		<object-name>thr_button</object-name>
+		<object-name>thr_r_button</object-name>
 		<object-name>thr_r_body</object-name>
 		<object-name>thr_r_screw</object-name>
 		<object-name>tiller</object-name>
