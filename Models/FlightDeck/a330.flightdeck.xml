@@ -4383,7 +4383,7 @@
 			<entry><ind>1</ind><dep>50</dep></entry>
 		</interpolation>
 		<axis>
-         <object-name>footrest_cpt.axis</object-name>
+			<object-name>footrest_cpt.axis</object-name>
 		</axis>
 	</animation>
 
@@ -4411,7 +4411,7 @@
 			<entry><ind>1</ind><dep>50</dep></entry>
 		</interpolation>
 		<axis>
-         <object-name>footrest_cpt.axis</object-name>
+			<object-name>footrest_cpt.axis</object-name>
 		</axis>
 	</animation>
 
@@ -4439,7 +4439,7 @@
 			<entry><ind>1</ind><dep>-50</dep></entry>
 		</interpolation>
 		<axis>
-         <object-name>footrest_fo.axis</object-name>
+			<object-name>footrest_fo.axis</object-name>
 		</axis>
 	</animation>
 	
@@ -4467,7 +4467,7 @@
 			<entry><ind>1</ind><dep>-50</dep></entry>
 		</interpolation>
 		<axis>
-         <object-name>footrest_fo.axis</object-name>
+			<object-name>footrest_fo.axis</object-name>
 		</axis>
 	</animation>
 
@@ -5739,7 +5739,7 @@
 		<type>rotate</type>
 		<object-name>rev_r</object-name>
 		<property>controls/engines/engine[1]/reverser</property>
-		<factor>40</factor>
+		<factor>-40</factor>
 		<axis>
 			<object-name>rev_r.axis</object-name>
 		</axis>
@@ -5840,33 +5840,33 @@
 		</axis>
 	</animation>
 
-	 <animation>
-        <type>pick</type>
+	<animation>
+		<type>pick</type>
 		<object-name>tray0-cpt</object-name>
 		<object-name>tray1-cpt</object-name>
 		<object-name>tray2-cpt</object-name>
-        <action>
+		<action>
 			<button>0</button>
 			<binding>
 				<command>nasal</command>
 				<script>libraries.lTray();</script>
 			</binding>
 		</action>
-    </animation>
+	</animation>
 
 	<animation>
-        <type>pick</type>
+		<type>pick</type>
 		<object-name>tray0-fo</object-name>
 		<object-name>tray1-fo</object-name>
 		<object-name>tray2-fo</object-name>
-        <action>
+		<action>
 			<button>0</button>
 			<binding>
 				<command>nasal</command>
 				<script>libraries.rTray();</script>
 			</binding>
 		</action>
-    </animation>
+	</animation>
 
 	<!-- Z Colors/Effects -->
 	<animation>
@@ -6362,7 +6362,6 @@
 		<object-name>thr_l</object-name>
 		<object-name>rev_l</object-name>
 		<object-name>terr_on_nd_label</object-name>
-		<object-name>thr_l_body</object-name>
 		<object-name>thr_l_button</object-name>
 		<object-name>thr_l_screw</object-name>
 		<object-name>thr_quad</object-name>
@@ -6370,7 +6369,6 @@
 		<object-name>thr_r</object-name>
 		<object-name>rev_r</object-name>
 		<object-name>thr_r_button</object-name>
-		<object-name>thr_r_body</object-name>
 		<object-name>thr_r_screw</object-name>
 		<object-name>tiller</object-name>
 		<object-name>tillerFo</object-name>
@@ -6402,7 +6400,7 @@
 		<object-name>WindowOpenerFo</object-name>
 		<object-name>WX</object-name>
 	</effect>
-   
+
 	<animation>
 		<name>Panel lighting</name>
 		<type>material</type>
@@ -6975,18 +6973,18 @@
 				<min>0</min>
 				<max>2</max>
 			</binding>
-       </action>
+		</action>
 
-        <!-- Release action, limit to 0 and 1. 2 is spring loaded reset position -->
+		<!-- Release action, limit to 0 and 1. 2 is spring loaded reset position -->
 		<release>
-            <binding>
-                <command>property-adjust</command>
-                <property>instrumentation/clock/et-selector</property>
-                <step>0</step>
-                <min>0</min>
-                <max>1</max>
-            </binding>
-        </release>
+			<binding>
+				<command>property-adjust</command>
+				<property>instrumentation/clock/et-selector</property>
+				<step>0</step>
+				<min>0</min>
+				<max>1</max>
+			</binding>
+		</release>
 	</animation>
 
 	<animation>
