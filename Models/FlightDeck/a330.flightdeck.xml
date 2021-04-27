@@ -5602,6 +5602,7 @@
 		<object-name>thr_l</object-name>
 		<property>fdm/jsbsim/fcs/throttle-lever[0]</property>
 		<interpolation>
+			<!--
 			<entry><ind>0.00000</ind><dep> 0</dep></entry>
 			<entry><ind>0.00999</ind><dep> 0</dep></entry>
 			<entry><ind>0.01000</ind><dep> 2</dep></entry>
@@ -5616,6 +5617,13 @@
 			<entry><ind>0.94999</ind><dep>43</dep></entry>
 			<entry><ind>0.95000</ind><dep>45</dep></entry>
 			<entry><ind>1.00000</ind><dep>45</dep></entry>
+			-->
+			<entry><ind>0.00000</ind><dep> 0</dep></entry> <!-- Idle -->
+			<entry><ind>0.63000</ind><dep>35</dep></entry> <!-- CL -->
+			<entry><ind>0.79999</ind><dep>35</dep></entry>
+			<entry><ind>0.80000</ind><dep>50</dep></entry> <!-- MCT -->
+			<entry><ind>0.99999</ind><dep>50</dep></entry>
+			<entry><ind>1.00000</ind><dep>65</dep></entry> <!-- TOGA -->
 		</interpolation>
 		<axis>
 			<object-name>trim.axis</object-name>
@@ -5679,6 +5687,7 @@
 		<object-name>thr_r</object-name>
 		<property>fdm/jsbsim/fcs/throttle-lever[1]</property>
 		<interpolation>
+			<!--
 			<entry><ind>0.00000</ind><dep> 0</dep></entry>
 			<entry><ind>0.00999</ind><dep> 0</dep></entry>
 			<entry><ind>0.01000</ind><dep> 2</dep></entry>
@@ -5693,6 +5702,13 @@
 			<entry><ind>0.94999</ind><dep>43</dep></entry>
 			<entry><ind>0.95000</ind><dep>45</dep></entry>
 			<entry><ind>1.00000</ind><dep>45</dep></entry>
+			-->
+			<entry><ind>0.00000</ind><dep> 0</dep></entry> <!-- Idle -->
+			<entry><ind>0.63000</ind><dep>35</dep></entry> <!-- CL -->
+			<entry><ind>0.79999</ind><dep>35</dep></entry>
+			<entry><ind>0.80000</ind><dep>50</dep></entry> <!-- MCT -->
+			<entry><ind>0.99999</ind><dep>50</dep></entry>
+			<entry><ind>1.00000</ind><dep>65</dep></entry> <!-- TOGA -->
 		</interpolation>
 		<axis>
 			<object-name>trim.axis</object-name>
