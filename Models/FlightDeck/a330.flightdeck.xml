@@ -5619,10 +5619,12 @@
 			<entry><ind>1.00000</ind><dep>45</dep></entry>
 			-->
 			<entry><ind>0.00000</ind><dep> 0</dep></entry> <!-- Idle -->
+			<entry><ind>0.62500</ind><dep>35</dep></entry>
 			<entry><ind>0.63000</ind><dep>35</dep></entry> <!-- CL -->
-			<entry><ind>0.79999</ind><dep>35</dep></entry>
+			<entry><ind>0.63500</ind><dep>35</dep></entry>
+			<entry><ind>0.79500</ind><dep>50</dep></entry> 
 			<entry><ind>0.80000</ind><dep>50</dep></entry> <!-- MCT -->
-			<entry><ind>0.99999</ind><dep>50</dep></entry>
+			<entry><ind>0.80500</ind><dep>50</dep></entry>
 			<entry><ind>1.00000</ind><dep>65</dep></entry> <!-- TOGA -->
 		</interpolation>
 		<axis>
@@ -5704,10 +5706,12 @@
 			<entry><ind>1.00000</ind><dep>45</dep></entry>
 			-->
 			<entry><ind>0.00000</ind><dep> 0</dep></entry> <!-- Idle -->
+			<entry><ind>0.62500</ind><dep>35</dep></entry>
 			<entry><ind>0.63000</ind><dep>35</dep></entry> <!-- CL -->
-			<entry><ind>0.79999</ind><dep>35</dep></entry>
+			<entry><ind>0.63500</ind><dep>35</dep></entry>
+			<entry><ind>0.79500</ind><dep>50</dep></entry> 
 			<entry><ind>0.80000</ind><dep>50</dep></entry> <!-- MCT -->
-			<entry><ind>0.99999</ind><dep>50</dep></entry>
+			<entry><ind>0.80500</ind><dep>50</dep></entry>
 			<entry><ind>1.00000</ind><dep>65</dep></entry> <!-- TOGA -->
 		</interpolation>
 		<axis>
