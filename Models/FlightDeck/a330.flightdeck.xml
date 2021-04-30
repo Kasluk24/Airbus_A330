@@ -5141,11 +5141,10 @@
 
 	<animation>
 		<type>rotate</type>
-		<object-name>trim_2</object-name>
 		<object-name>trim_2_lts</object-name>
 		<property>fdm/jsbsim/hydraulics/elevator-trim/cmd-deg</property>
-		<factor>15.55</factor>
-		<offset-deg>1.4</offset-deg>
+		<factor>33.9</factor>
+		<!-- <offset-deg>1.4</offset-deg> -->
 		<axis>
 			<object-name>trim.axis</object-name>
 		</axis>
