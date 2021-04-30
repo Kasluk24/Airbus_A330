@@ -4805,6 +4805,7 @@
 		<object-name>gear_labels</object-name>
 		<object-name>thr_quad_lts</object-name>
 		<object-name>trim_2_lts</object-name>
+		<object-name>trim_3_lts</object-name>
 		<object-name>brightness_panel_left_glare</object-name>
 		<object-name>brightness_panel_right_glare</object-name>
 		<object-name>ped_labels_1</object-name>
@@ -4891,6 +4892,7 @@
 		<object-name>gear_labels</object-name>
 		<object-name>thr_quad_lts</object-name>
 		<object-name>trim_2_lts</object-name>
+		<object-name>trim_3_lts</object-name>
 		<object-name>brightness_panel_left_glare</object-name>
 		<object-name>brightness_panel_right_glare</object-name>
 		<object-name>ped_labels_1</object-name>
@@ -5139,6 +5141,7 @@
 
 	<animation>
 		<type>rotate</type>
+		<object-name>trim_2</object-name>
 		<object-name>trim_2_lts</object-name>
 		<property>fdm/jsbsim/hydraulics/elevator-trim/cmd-deg</property>
 		<factor>15.55</factor>
@@ -6405,6 +6408,7 @@
 		<object-name>throttle_2.1</object-name>
 		<object-name>throttle_2.2</object-name>
 		<object-name>trim_2_lts</object-name>
+		<object-name>trim_3_lts</object-name>
 		<object-name>trray_slide</object-name>
 		<object-name>visor_cpt</object-name>
 		<object-name>visor_fo</object-name>
